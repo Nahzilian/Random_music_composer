@@ -75,9 +75,9 @@ class Rearrange:
         if len(lowCallNotes) < len(frequentCallNotes):
             tempPattern = []
             for i in range(len(lowCallNotes)):
-                
+                a = 1
         else:
-            
+            a = 2
 
         return highPitch
 
