@@ -1,0 +1,19 @@
+Music: 
+Pitch that sounds to the ears
+Balance and repeatition
+Fibonacci golden ration
+
+2 choices:
+Melody and background music later
+Background music and melody later
+
+Find the PHI moment of the song
+
+Usually: PHI moment of the song determines by the following formula:
+
+Phi moment = length of the song x 0.618 
+Where:
+Units of time are in seconds,
+0.618 is the inverse of the PHI
+
+PHI number: Basically the 1/(1+1/...)
