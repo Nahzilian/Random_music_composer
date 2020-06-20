@@ -1,7 +1,7 @@
 Music: 
 Pitch that sounds to the ears
 Balance and repeatition
-Fibonacci golden ration
+Fibonacci golden ratio
 
 2 choices:
 Melody and background music later
@@ -17,3 +17,18 @@ Units of time are in seconds,
 0.618 is the inverse of the PHI
 
 PHI number: Basically the 1/(1+1/...)
+
+Types of music:
+
+- Classical
+- EDM
+- Cinematic
+- Lofi
+
+- Rythm == Beats, Tempo, meter, syncopation
+- Dynamic == 
+- Melody
+- Harmony
+- Composer
+- Texture
+- Form
