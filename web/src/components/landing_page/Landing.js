@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
-import NavBar from '../reusable/NavBar'
-
+import Introduction from './Introduction'
 
 export class Landing extends Component {
     render() {
         return (
             <div className = "container">
-                Hi
+                <Introduction/>
             </div>
         )
     }
