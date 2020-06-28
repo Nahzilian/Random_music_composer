@@ -10,6 +10,7 @@ import {
 
 import NavBar from './components/reusable/NavBar'
 import Landing from './components/landing_page/Landing'
+import Generate from './components/generate_page/Generate'
 
 
 import { Fragment } from 'react';
@@ -20,6 +21,9 @@ function App() {
         <NavBar/>
         <Route exact path = '/'>
             <Landing/>
+        </Route>
+        <Route exact path = '/generate'>
+            <Generate/>
         </Route>
         
     </Router>
