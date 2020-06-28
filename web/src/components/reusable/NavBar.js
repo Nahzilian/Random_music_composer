@@ -26,7 +26,7 @@ export class NavBar extends Component {
                         </Link>
                     </a>
                     <a className="nav-item nav-link" href="#">
-                        <Link to = "/" className = "navbar-items">
+                        <Link to = "/Contact" className = "navbar-items">
                             <span>Contact</span>
                         </Link>
                     </a>

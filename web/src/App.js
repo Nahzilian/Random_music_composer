@@ -11,7 +11,7 @@ import {
 import NavBar from './components/reusable/NavBar'
 import Introduction from './components/landing_page/Introduction'
 import AboutUs from './components/landing_page/AboutUs'
-
+import Contact from './components/landing_page/Contact'
 
 import { Fragment } from 'react';
 
@@ -25,6 +25,10 @@ function App() {
 
         <Route exact path = '/AboutUs'>
             <AboutUs/>
+        </Route>
+
+        <Route exact path = '/Contact'>
+            <Contact/>
         </Route>
         
         
