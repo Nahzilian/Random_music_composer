@@ -9,7 +9,8 @@ import {
 
 
 import NavBar from './components/reusable/NavBar'
-import Landing from './components/landing_page/Landing'
+import Introduction from './components/landing_page/Introduction'
+import AboutUs from './components/landing_page/AboutUs'
 
 
 import { Fragment } from 'react';
@@ -19,8 +20,13 @@ function App() {
     <Router>
         <NavBar/>
         <Route exact path = '/'>
-            <Landing/>
+            <Introduction/>
         </Route>
+
+        <Route exact path = '/AboutUs'>
+            <AboutUs/>
+        </Route>
+        
         
     </Router>
     );

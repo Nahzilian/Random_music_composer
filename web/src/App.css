@@ -43,3 +43,15 @@ body{
 .center-block{
   margin-top:10%;
 }
+
+.block-introduction{
+  background-color: white;
+  color:#707070;
+  width:100%;
+  border-radius: 20px;
+  padding:20px;
+}
+.context-blk{
+  padding:20px;
+  
+}

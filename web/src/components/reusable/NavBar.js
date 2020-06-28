@@ -21,7 +21,7 @@ export class NavBar extends Component {
                         <span className="sr-only">(current)</span>
                     </a>
                     <a className="nav-item nav-link" href="#">
-                        <Link to = "/" className = "navbar-items">
+                        <Link to = "/AboutUs" className = "navbar-items">
                             <span>About us</span>
                         </Link>
                     </a>
