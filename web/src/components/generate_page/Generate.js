@@ -33,26 +33,37 @@ var dropItemRounded = {
 
 var sel = {
     borderRadius: '25px',
-    width: '70vw',
+    //width: '70vw',
+    width: '30vw',
     border: '2px solid white',
     textAlign: 'center', //I dont think this does anything :/
     fontSize: '1.75rem',
     backgroundColor: 'transparent',
     color: 'black',
+    appearance: 'none',
+    paddingLeft: '25px',
+    
+   // outline: '0',
+  //boxShadow: 'none',
+ // border: '0',
+    backgroundColor: '#f8f9fa',
+  //backgroundImage: 'none',
     
 };
 
 var subBtn = {
-    
+    fontFamily: 'Segoe UI',
+    fontWeight: 'bold',
     padding: '8px 45px',
     borderRadius: '25px',
-    border: '2px solid white',
+    border: '0px',
     textAlign: 'center', //I dont think this does anything :/
     fontSize: '1.25rem',
-    backgroundColor: 'transparent',
-    color: 'white',
+    backgroundColor: '#1DB954',
+    color: '#191414',
     marginTop: '20px',
     fontStyle: 'italic',
+    outline: '0'
 };
 
 export class Generate extends Component {
@@ -63,7 +74,7 @@ export class Generate extends Component {
                 <div>
                     <h1>Choose music genre</h1>
                 </div>
-                <div class="btn-group">
+                {/* <div class="btn-group">
                     <div style = {dropBtn} type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 </div>
                     <div class="dropdown-menu" style = {dropMenu}>
@@ -71,17 +82,20 @@ export class Generate extends Component {
                         <a class="dropdown-item" href="#">Another action</a>
                         <a class="dropdown-item" style = {dropItemRounded} href="#">Something else here</a>
                     </div>
-                </div>
+                </div> */}
                 <div>
-                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" style={sel}>
-                    <option hidden disabled selected value> </option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                    </select>
+                <select class="custom-select custom-select-lg mb-3" style={sel}>
+                    <option hidden disabled selected value></option>
+                    <option>Lofi</option>
+                    <option>Hip hop</option>
+                    <option>Electronic</option>
+                    <option>Classical   </option>
+                </select>
+
                 </div>
+                
                 <div><button type="submit" style = {subBtn} >Generate new track</button></div>
-            
+                
             </div>
 
             
