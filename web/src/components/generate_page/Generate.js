@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import FadeIn from 'react-fade-in'
+import { Link } from 'react-router-dom'
 
 var title = {
     //fontFamily: " 'Dancing Script', cursive ",
@@ -89,12 +90,14 @@ export class Generate extends Component {
                     <option>Lofi</option>
                     <option>Hip hop</option>
                     <option>Electronic</option>
-                    <option>Classical   </option>
+                    <option>Classical</option>
                 </select>
 
                 </div>
                 
-                <div><button type="submit" style = {subBtn} >Generate new track</button></div>
+                <Link to = "/SongPage">
+                <div><button style = {subBtn} >Generate new track</button></div>
+                </Link>
                 
             </div>
 

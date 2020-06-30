@@ -9,9 +9,11 @@ import {
 
 
 import NavBar from './components/reusable/NavBar'
-import Landing from './components/landing_page/Landing'
+import Introduction from './components/landing_page/Introduction'
+import AboutUs from './components/landing_page/AboutUs'
+import Contact from './components/landing_page/Contact'
 import Generate from './components/generate_page/Generate'
-
+import SongPage from './components/song_page/SongPage'
 
 import { Fragment } from 'react';
 
@@ -20,11 +22,24 @@ function App() {
     <Router>
         <NavBar/>
         <Route exact path = '/'>
-            <Landing/>
+            <Introduction/>
         </Route>
-        <Route exact path = '/generate'>
+
+        <Route exact path = '/AboutUs'>
+            <AboutUs/>
+        </Route>
+        <Route exact path = '/Generate'>
             <Generate/>
         </Route>
+
+        <Route exact path = '/Contact'>
+            <Contact/>
+        </Route>
+
+        <Route exact path = '/SongPage'>
+            <SongPage/>
+        </Route>
+        
         
     </Router>
     );
